@@ -1,0 +1,64 @@
+.container-analysis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .chart-container {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .container-choose {
+    margin-top: 20px;
+  }
+  
+  .container-choose select,
+  .container-choose input[type="date"] {
+    padding: 15px;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 12px;
+    border: none;
+  }
+  
+  .analysis-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .analysis-content-left{
+    padding: 30px;
+  }
+  .analysis-content-right{
+    padding: 30px;
+  }
+  
+  .analysis-content label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .analysis-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .analysis-content-left,
+    .analysis-content-right {
+      width: 100%;
+      text-align: center;
+    }
+  }

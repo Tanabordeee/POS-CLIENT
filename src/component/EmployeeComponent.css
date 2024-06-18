@@ -1,0 +1,38 @@
+.card-employee{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.employee-delete img {
+    width: 100%;
+}
+.employee-delete{
+    width: 2%;
+    height: 2%;
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227);
+    border: none;
+    cursor: pointer;
+}
+.employee-fix img {
+    width: 100%;
+}
+.employee-fix{
+    width: 3%;
+    height: 3%;
+    width: 2%;
+    height: 2%;
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227);
+    border: none;
+    cursor: pointer;
+}

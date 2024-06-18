@@ -1,0 +1,38 @@
+.card-discount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(206, 206, 206);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.discount-delete img {
+    width: 100%;
+}
+.discount-delete{
+    width: 2%;
+    height: 2%;
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227);
+    border: none;
+    cursor: pointer;
+}
+.dicount-fix img {
+    width: 100%;
+}
+.dicount-fix{
+    width: 3%;
+    height: 3%;
+    width: 2%;
+    height: 2%;
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: rgb(228, 227, 227);
+    border: none;
+    cursor: pointer;
+}
